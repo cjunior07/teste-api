@@ -1,0 +1,45 @@
+AllCops:
+  TargetRubyVersion: 2.6
+  NewCops: enable
+
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+
+Layout/LineLength:
+  Max: 200
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: false
+
+Lint/StructNewOverride:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 150 # TODO: Alterar para um valor real já que o valor está para um mock que tem todos os dados nele e alinha está gigante
+
+Metrics/BlockLength:
+  Max: 50
+
+Metrics/ClassLength:
+  Max: 10000
+
+Metrics/MethodLength:
+  Max: 50
+
+Metrics/ModuleLength:
+  Max: 10000
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false # TODO: Entender melhor como funciona isso exatamente
+
+Style/GlobalVars:
+  Enabled: true
+
+Style/NumericLiteralPrefix:
+  Enabled: true

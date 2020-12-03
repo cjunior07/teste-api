@@ -1,0 +1,10 @@
+/index.html
+/checkstyle-result.xml
+allure-report/*
+.vscode/*
+report/*
+Gemfile.lock
+/.bundle/
+rubocop_report/*
+.rakeTasks
+.idea/*

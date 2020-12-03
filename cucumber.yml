@@ -1,0 +1,8 @@
+default: --p html_report --p qa --p allure
+
+qa: ENVIRONMENT=qa
+
+html_report: --format pretty --format html --out=report/report<%= ENV['TEST_ENV_NUMBER'] %>.html
+allure: --format pretty --format AllureCucumber::CucumberFormatter -p qa --out report/allure_report
+
+

@@ -1,0 +1,32 @@
+ambiente: QA
+
+urls:
+  url_trello: https://api.trello.com
+  url_accounts: https://qa-accounts-api.hubcard.com.br
+  url_bureau: http://172.22.121.153:4092
+  url_cashinout: http://qa-cashinout.hubcard.com.br
+  url_ccs: http://172.22.121.153:4093
+  url_orders: http://qa-orders-api.hubcard.com.br
+  url_payment_adapter: https://qa-payment-adapter-api.hubcard.com.br
+  url_ppi: https://qa-ppi.hubprepaid.com.br
+  url_proc_cards: https://qa-proc-cards.valepresente.net.br
+  url_products: https://qa-products.api.painel.valepresente.net.br/v2
+  url_suport_api: http://172.22.121.153:4059
+  url_ted_manager: http://k8s.op-qa.hubfintech.com.br
+
+db:
+  mongo:
+    ip: '172.22.121.153'
+    port: '27017'
+  sql_server:
+    database: processadora
+    user: processadora_web
+    password: trevo1377!@
+    host: '172.22.121.168'
+    port: '16000'
+
+amqp:
+  rabbit:
+    hostname: coelho
+    user: guest
+    password: guest
