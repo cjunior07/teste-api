@@ -1,4 +1,4 @@
-# Desafio-inmetrics-Web-Ruby
+# Teste API
 Projeto de automação de teste api, utilizando Ruby como linguagem principal com as ferramentas cucumber e HTTParty.
 
 ## Autor: 
