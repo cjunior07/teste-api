@@ -18,7 +18,7 @@ npm install -g allure-commandline
 ```
 #### Para abrir o report do allure, executar o seguinte comando:
 ```
-cd caminho\Desafio-inmetrics-web-ruby\logs
+cd caminho\teste-api\logs
 allure serve allure-reports
 ```
 ### Pasta LOGS
